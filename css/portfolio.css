@@ -52,3 +52,48 @@ a {
 .contact-header:hover, .contact-header:focus {
     color: #2196F3;
 }
+/* основной контент */
+
+
+
+
+
+
+
+
+
+
+
+
+/* подвал */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.web-color {
+  color: #2196f3;
+}
+
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
