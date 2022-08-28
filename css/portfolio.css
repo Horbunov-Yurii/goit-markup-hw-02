@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto';
+    color:#212121
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* шапка */
+
+.logo-color {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:#212121
+}
+
+.nav-link:hover,.nav-link:focus {
+    color: #2196F3;
+}
+
+
+
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-header:hover, .contact-header:focus {
+    color: #2196F3;
+}
