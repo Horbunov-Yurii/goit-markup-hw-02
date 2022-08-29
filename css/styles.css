@@ -1,8 +1,17 @@
-body {
-    font-family: 'Roboto';
-    color:#212121
+:root {
+  --body-text-color: #212121;
+  --main-background-color: #ffffff;
+  --hover-color: #2196f3;
+  --link-color: #757575;
+  --background-color-footer: #2f303a;
+  --footer-contact: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
 }
 
+body {
+  font-family: 'Roboto';
+  color:var(--body-text-color);
+}
 
 ul {
   list-style: none;
@@ -15,7 +24,7 @@ a {
 /* шапка */
 
 .logo-color {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 
 .logo {
@@ -32,25 +41,25 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:#212121
+  color:var(--body-text-color);
 }
 
-.nav-link:hover,.nav-link:focus {
-    color: #2196F3;
+.nav-link:hover,
+.nav-link:focus {
+  color:var(--hover-color);
 }
-
-
 
 .contact-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color:var(--link-color);
 }
 
-.contact-header:hover, .contact-header:focus {
-    color: #2196F3;
+.contact-header:hover,
+.contact-header:focus {
+  color:var(--hover-color);
 }
 
 /* основной контент */
@@ -62,14 +71,15 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color:var(--main-background-color);
 }
 
 .section-hero {
-  background-color: #2f303a;
+  background-color:var(--background-color-footer);
 }
 
 .hero-button {
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -77,8 +87,8 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color:var(--main-background-color);
+  background:var(--background-color-footer);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -99,7 +109,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-color);
 }
 
 /* чем мы занимаемся */
@@ -115,7 +125,7 @@ a {
 /* наша команда */
 
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 
 .team-title {
@@ -139,13 +149,13 @@ a {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-color);
 }
 
 /* подвал */
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-footer);
 }
 
 .logo-footer {
@@ -154,23 +164,25 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-background-color);
 }
 
 .web-color {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .footer-contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  color: var(--footer-contact);
 }
 
 .footer-address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  font-style: normal;
+  color: var(--main-background-color);
 }
