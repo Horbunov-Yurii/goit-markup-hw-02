@@ -4,7 +4,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 1.33;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -17,7 +17,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -29,7 +29,7 @@
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
