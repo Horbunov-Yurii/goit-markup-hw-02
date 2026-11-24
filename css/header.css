@@ -1,0 +1,37 @@
+.header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.header-web {
+  color: var(--IRIS, #4d5ae5);
+}
+
+.header-link {
+  align-self: stretch;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+
+
+.header-contact {
+  align-self: stretch;
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.header-contact:hover,
+.header-contact:focus{
+    color: var(--OCEAN, #404BBF);
+}
