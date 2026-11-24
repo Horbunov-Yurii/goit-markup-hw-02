@@ -1,24 +1,26 @@
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
-  align-items: center;
 }
 
 .hero-title {
-  max-width: 496px;
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
-  flex-shrink: 0;
   color: var(--WHITE, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--IRIS, #4d5ae5);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+  background-color: #404bbf;
 }
